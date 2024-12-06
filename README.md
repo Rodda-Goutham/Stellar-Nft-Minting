@@ -19,7 +19,6 @@ Before proceeding, ensure the following software is installed:
 
 ### **Frontend**
 
-```markdown
 # Soroban NFT Frontend
 
 This repository contains the React-based frontend for interacting with the Soroban NFT smart contract. It allows users to connect wallets, mint NFTs, and view NFT metadata.
