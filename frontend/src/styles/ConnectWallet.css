@@ -1,0 +1,36 @@
+/*container styling*/
+.connect-wallet-container{
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connect-wallet-button {
+    background-color: #ffffff; /* Green background */
+    color: rgb(0, 0, 0); /* White text */
+    border: none; /* No border */
+    border-radius: 37px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.connected-text {
+    font-size: 1.2rem; /* Medium text size */
+    font-weight: 500; /* Semi-bold text */
+    color: #ffffff; /* White text color */
+    background-color: #0a490c; /* Green background for success */
+    padding: 0.5rem 1rem; /* Add some spacing around the text */
+    border-radius: 37px; /* Rounded corners for a badge-like appearance */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 1rem 0; /* Spacing above and below the text */
+    text-align: center; /* Center align the text */
+    display: inline-block; /* Makes it adjust to the text width */
+}
+/* Hover effect for the connect wallet button */
+.connect-wallet-button:hover {
+    background-color: #45a049; /* Darker green */
+}

@@ -1,0 +1,92 @@
+/* styles/MintNFT.css */
+
+.mint-nft-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    /* Optional: To cap the width */
+    height: 35vh;
+    /* Increased height */
+    width: 60vh;
+    background-color: #1da587;
+    border-radius: 20px;
+    /* Rounded edges */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Optional: Add a shadow for depth */
+    margin: auto;
+    /* Center container horizontally */
+}
+
+.mint-nft-input {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.400rem;
+}
+
+.mint-nft-button {
+    background-color: #135f09;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.600rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.mint-nft-button:hover {
+    background-color: #028058;
+}
+
+.mint-nft-button:disabled {
+    background-color: #c00e08;
+    cursor: not-allowed;
+}
+
+.minting-animation {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-top: 1rem;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.nft-display {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nft-image {
+    max-width: 300px;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.nft-details {
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.transaction-hash {
+    color: #08fd00;
+    text-decoration: underline;
+    cursor: pointer;
+}
